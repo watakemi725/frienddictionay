@@ -14,6 +14,9 @@
 		46911F2B1EA85B1C0017D318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46911F291EA85B1C0017D318 /* LaunchScreen.storyboard */; };
 		46911F361EA85B1D0017D318 /* FriendDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46911F351EA85B1D0017D318 /* FriendDictionaryTests.swift */; };
 		46911F411EA85B1D0017D318 /* FriendDictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46911F401EA85B1D0017D318 /* FriendDictionaryUITests.swift */; };
+		46911F4F1EA85C810017D318 /* PersonAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46911F4E1EA85C810017D318 /* PersonAddViewController.swift */; };
+		46911F511EA85CB20017D318 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46911F501EA85CB20017D318 /* ListViewController.swift */; };
+		46911F531EA85CC60017D318 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46911F521EA85CC60017D318 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		46911F3C1EA85B1D0017D318 /* FriendDictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendDictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46911F401EA85B1D0017D318 /* FriendDictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDictionaryUITests.swift; sourceTree = "<group>"; };
 		46911F421EA85B1D0017D318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46911F4E1EA85C810017D318 /* PersonAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonAddViewController.swift; sourceTree = "<group>"; };
+		46911F501EA85CB20017D318 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		46911F521EA85CC60017D318 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				46911F201EA85B1C0017D318 /* AppDelegate.swift */,
 				46911F221EA85B1C0017D318 /* ViewController.swift */,
 				46911F241EA85B1C0017D318 /* Main.storyboard */,
+				46911F4E1EA85C810017D318 /* PersonAddViewController.swift */,
+				46911F501EA85CB20017D318 /* ListViewController.swift */,
+				46911F521EA85CC60017D318 /* ProfileViewController.swift */,
 				46911F271EA85B1C0017D318 /* Assets.xcassets */,
 				46911F291EA85B1C0017D318 /* LaunchScreen.storyboard */,
 				46911F2C1EA85B1C0017D318 /* Info.plist */,
@@ -264,6 +273,9 @@
 			files = (
 				46911F231EA85B1C0017D318 /* ViewController.swift in Sources */,
 				46911F211EA85B1C0017D318 /* AppDelegate.swift in Sources */,
+				46911F531EA85CC60017D318 /* ProfileViewController.swift in Sources */,
+				46911F511EA85CB20017D318 /* ListViewController.swift in Sources */,
+				46911F4F1EA85C810017D318 /* PersonAddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
