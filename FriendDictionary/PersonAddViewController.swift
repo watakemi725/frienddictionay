@@ -20,6 +20,8 @@ class PersonAddViewController: UIViewController , UITextFieldDelegate {
         textfield.delegate = self
         
         // Do any additional setup after loading the view.
+        
+        
     }
     /*
      UITextFieldが編集された直後に呼ばれるデリゲートメソッド.

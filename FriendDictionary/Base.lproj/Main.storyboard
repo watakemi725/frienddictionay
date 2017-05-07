@@ -230,9 +230,12 @@
                             <constraint firstItem="Irg-fp-IZL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rTp-Jw-fke"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="z83-6f-Pr3"/>
+                    <navigationItem key="navigationItem" id="z83-6f-Pr3">
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="dOS-b6-syr"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="nameLabel" destination="70C-Yy-rgT" id="qfb-bX-Atx"/>
+                        <outlet property="scrollView" destination="Irg-fp-IZL" id="uGS-sf-Ew8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
